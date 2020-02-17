@@ -1,4 +1,4 @@
-# [基于 Mock.js 的前端开发指南](https://resyin.github.io/site/post/mockjs-usage/)
+# [基于 Mock.js 的前端开发指南](https://resyin.github.io/post/mockjs-usage/)
 
 ## 关于 Mock.js
 
