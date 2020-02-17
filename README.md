@@ -1,4 +1,4 @@
-# 基于 Mock.js 的前端开发指南
+# [基于 Mock.js 的前端开发指南](https://resyin.github.io/site/post/mockjs-usage/)
 
 ## 关于 Mock.js
 
@@ -197,7 +197,7 @@ Mock.mock("/api/news", "get", {
     results: [
         {
             id: "@guid", // 生成 UUID
-            title: "@ctitle(3,5)", // 生成 2-5 字的中文标题
+            title: "@ctitle(3,5)", // 生成 3-5 字的中文标题
             img: "@dataImage('200x100')", // 生成 200px*100px 的图片 Base64
             publishedAt: "@date('yyyy-MM-dd')", // 生成 yyyy-MM-dd 格式的日期
             author: "@name(true)", // 生成英文姓名
@@ -274,7 +274,7 @@ Mock.mock("/api/news", "get", {
     "results|5-10": [
         {
             id: "@guid", // 生成 UUID
-            title: "@ctitle(3,5)", // 生成 2-5 字的中文标题
+            title: "@ctitle(3,5)", // 生成 3-5 字的中文标题
             img: "@dataImage('200x100')", // 生成 200px*100px 的图片 Base64
             publishedAt: "@date('yyyy-MM-dd')", // 生成 yyyy-MM-dd 格式的日期
             author: "@name(true)", // 生成英文姓名
@@ -396,7 +396,7 @@ let ret = Mock.mock({
   "results|5-10": [
     {
       id: "@guid", // 生成 UUID
-      title: "@ctitle(3,5)", // 生成 2-5 字的中文标题
+      title: "@ctitle(3,5)", // 生成 3-5 字的中文标题
       img: "@dataImage('200x100')", // 生成 200px*100px 的图片 Base64
       publishedAt: "@date('yyyy-MM-dd')", // 生成 yyyy-MM-dd 格式的日期
       author: "@name(true)", // 生成英文姓名
